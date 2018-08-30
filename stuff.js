@@ -5,6 +5,6 @@ var adder=function(a,b){
     return `您需要计算的两数之和为${a+b}`;
 }
 module.exports={
-    counter:counter,
+     counter:counter,
     adder:adder
 };
