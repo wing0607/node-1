@@ -1,7 +1,7 @@
 //w文件系统
 var fs=require('fs');
 //异步地读取文件的内容
-/*fs.readFile('./readMe','utf-8',(err,data)=>{
+/*fs.readFile('./readMe.txt','utf-8',(err,data)=>{
     if(err)
         throw err;
     console.log(data)
