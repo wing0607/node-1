@@ -8,7 +8,6 @@ myReadStream.pipe(myWriteStream)
 myReadStream.on('data',function (chunk) {
     console.log('=====正在接收一部分数据=====');
     myWriteStream.write(chunk)
-
 })*!/*/
 /*搭建服务器*/
 var server=http.createServer(function (req,res) {
